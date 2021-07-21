@@ -50,6 +50,33 @@
 
 
 
+#### 二叉树的前序遍历
+
+```
+二叉树的前序遍历，非递归实现，本质是需要一个栈来进行辅助操作
+
+
+public List<Integer> preorderTraversal(TreeNode root) {
+       List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode pop = stack.pop();
+            if (pop != null) {
+                result.add(pop.val);
+                stack.push(pop.right);
+                stack.push(pop.left);
+            }
+        }
+        return result;
+    }
+```
+
+
+
 ## 三、排序
 
 ##### 快速排序
