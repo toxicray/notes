@@ -871,3 +871,69 @@ return 301 https://$host$request_uri;
 }
 ```
 
+
+
+
+
+# 尝试
+
+使用cmd进入对应的文件夹    start niginx
+
+nginx.exe -s reload   从新加载配置文件
+
+nginx.exe -s stop 停止nginx
+
+## nginx反向代理网站配置
+
+基于windows下的nginx程序, 配置如图
+
+```
+server {
+        listen       85;
+        server_name  localhost;  
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            #root html;
+            proxy_pass http://192.168.1.6:8080;
+            index  index.html index.htm;
+        }
+}
+```
+
+以上便实现了将 localhost请求转发到  http://192.168.1.6:8080;,   地址栏显示的还是localhost:85
+
+
+
+## nginx代理http接口配置
+
+和反向代理一样的
+
+
+
+
+
+nginx路由请求
+
+```
+server {
+
+    listen 80；
+    server_name _;
+ location ~/node1 {
+      proxy_pass http://192.168.169.103:8080;
+                  }
+
+ location ~/node2 {
+      proxy_pass http://192.168.169.113:80;   
+           }
+
+ location ~/node3 {
+      proxy_pass http://192.168.169.154:80;
+           }
+}
+```
+
