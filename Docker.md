@@ -1,5 +1,33 @@
 # 					Docker学习资料
 
+## 前置条件
+
+在当前的linux上安装docker
+
+裸机先安装包管理工具即可
+
+yum redhat或者centos的条件下 /或者apt ubnatu
+
+
+
+以centos为例
+
+1. yum update   更新到最新的版本'
+
+2. yum install docker 安装docker的
+
+3. 设置镜像加速, 到阿里云的平台里面找到自己的加速地址
+
+4. 不同的系统版本对应的docker可能也会有一些区别,建议注意一下服务器的系统版本
+
+   尽可能走原有的已有的路
+
+5. 
+
+
+
+docker run --name postgresdb -p 5432:5432 -e POSTGRES_PASSWORD=root -d postgres
+
 
 
 
