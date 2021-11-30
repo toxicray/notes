@@ -30,7 +30,27 @@ docker run --name postgresdb -p 5432:5432 -e POSTGRES_PASSWORD=root -d postgres
 
 
 
+wiki的服务id   B4QN-YAW5-JMSG-Y42W
 
+激活码   
+
+```
+AAABLQ0ODAoPeJxtkFFrwjAQx9/zKQJ7jphWEYTAYhuGW5O6VSc+xnpugZhK0pb57RetvozBveTuf
+z9+l6ctHLBqekxnseaUztMUZ9UaJ+OEohxC7c25NY1jWeOOtgNXA1LdaQ++PG4C+MAIRZkHfQ3lu
+gV23SQ01gzFnVbXrdInYO3FxwSqI2YUe6aPLd/BIyOkNpYZ15tg9haeQw0ORs4i0Wvb3ejsqG2Ag
+VCYOA+wvpzhRs9KKcVHtuQFiiDXgtPRVPycjb8MVmk6IzQhyXQAPG7IbBda8Ko5QGBjVAnFduUGS
+/4msBSY44rneMVVzkeo9F/amTDIGPVpKrMoBF4LLlEFvge/zNli8q7Ijm+n5FVWL2Q3Sbbobhunx
+TJ/vP6XW3W+/tYB/nzlLxGiiVMwLAIUGxvTl3zE6F7l53QjJZKx8VBb+5gCFHwdy2C5v6+026TFY
+9a6d/YzS8dIX02f3
+```
+
+
+
+
+
+## wiki的安装地址参照
+
+https://www.cnblogs.com/rslai/p/8845777.html
 
 
 
